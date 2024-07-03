@@ -58,11 +58,11 @@ const EmailSection = () => {
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
         <h5 className="text-xl font-bold text-white my-2">
-          Let's Connect
+          Let us Connect
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
-          I'm currently looking for new opportunities, my inbox is always
+          Im currently looking for new opportunities, my inbox is always
           open. Whether you have a question or just want to say hi, I will
           try my best to get back to you!
         </p>
@@ -78,7 +78,7 @@ const EmailSection = () => {
       <div>
         {emailSubmitted ? (
           <p className="text-green-500 text-sm mt-2">
-          Thank you for trying to reach out to Paul, we're opening your mail for verification but if it takes longer to open the mail kindly contact him on paulmarwizi02@gmail.com!
+          Thank you for trying to reach out to Paul, we are opening your mail for verification but if it takes longer to open the mail kindly contact him on paulmarwizi02@gmail.com!
           </p>
         ) : (
           <form className="flex flex-col"  onSubmit={handleSubmit}>
@@ -137,7 +137,7 @@ const EmailSection = () => {
             {
                 emailSubmitted &&(
                     <p className="text-green-500 text-sm mt-2">
-                        Thank you for trying to reach out to Paul, we're opening your mail for verification but if it takes longer to open the mail kindly contact him on paulmarwizi02@gmail.com!
+                        Thank you for trying to reach out to Paul, we are opening your mail for verification but if it takes longer to open the mail kindly contact him on paulmarwizi02@gmail.com!
                     </p>
                 )
             }
